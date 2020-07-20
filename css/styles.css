@@ -42,7 +42,7 @@ ul {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-color);
   text-decoration: none;
 }
 .menu-link:hover,
@@ -84,6 +84,12 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  color: var(--title-color);
+  background: #f5f4fa;
+}
+
+.button-text:hover,
+.button-text:focus {
   color: var(--white-color);
   background: var(--accent-color);
 }
